@@ -6,7 +6,8 @@
 
 
 ## 拉取并运行 LLM 模型
-在命令行拉取，
+在命令行拉取并yu
 ![](assets/Task2/file-20260106180518224.png)
-![](assets/Task2/file-20260106180310530.png)
+![](assets/Task2/file-20260106180705395.png)
 
+## 使用第三方工具连接到Ollama 并调用 LLM 模型进行对话
