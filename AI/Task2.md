@@ -11,4 +11,8 @@
 ![](assets/Task2/file-20260106180705395.png)
 
 ## 使用第三方工具连接到Ollama 并调用 LLM 模型进行对话
+使用了chatbox进行连接，调用llm模型对话
+![](assets/Task2/file-20260106180908804.png)
 ![](assets/Task2/file-20260106180835321.png)
+
+## 
