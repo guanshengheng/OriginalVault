@@ -16,3 +16,6 @@
 ![](assets/Task2/file-20260106180835321.png)
 
 ## 使用python程序调用拉取的LLM模型对话
+
+![](assets/Task2/file-20260106181209927.png)
+![](assets/Task2/file-20260106181158643.png)
