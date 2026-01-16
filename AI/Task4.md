@@ -17,4 +17,4 @@ main.py作为controller层，cors跨域接受前端请求，pydantic模型解析
 
 ## 前端部分
 
-使用vue框架，没有。
+使用vue框架，。
