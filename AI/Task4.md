@@ -16,3 +16,5 @@ agent.py作为service层，是Task3中的main.py，几乎没做修改，只将pr
 main.py作为controller层，cors跨域接受前端请求，pydantic模型解析json得到str类型的prompt传给agent.py，返回响应结果。
 
 ## 前端部分
+
+使用vue框架，没有。
