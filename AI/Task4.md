@@ -21,5 +21,7 @@ main.py作为controller层，cors跨域接受前端请求，pydantic模型解析
 前端部分都在文件**agent-web\src\App.vue**里
 send函数做了条件判断，正在发送则不能发送、输入为空不能发送。将用户输入添加进要展示的数组。发送http请求到后端，解析返回值，把md格式的页面转换成html渲染，添加进要展示的数组。另外有简单的错误处理。
 html的骨架和css样式借助了ai工具完成。
+![](assets/Task4/file-20260116185228239.png)
 
 ### 打包部署
+使用**docker**打包镜像，并传到阿里云服务器上。
