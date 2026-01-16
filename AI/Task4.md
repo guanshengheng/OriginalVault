@@ -7,4 +7,10 @@
 ## 开发过程
 
 ### 后端部分
-使用fastapi框架。
+
+文件结构如图
+![](assets/Task4/file-20260116181258432.png)
+
+使用fastapi框架。Task3中是直接在命令行中输入输出，现在改成通过前端读取用户输入，输出也是以json返回给前端。
+agent.py作为service层，是Task3中的main.py，几乎没做修改，只将prompt作为参数传递进函数。
+main.py作为controller层，接受前端请求，返回响应结果。
