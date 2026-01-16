@@ -25,3 +25,26 @@ html的骨架和css样式借助了ai工具完成。
 
 ### 打包部署
 使用**docker**打包镜像，并传到阿里云服务器上。
+
+1. 构建镜像
+```
+docker compose build
+```
+![](assets/Task4/file-20260116190339340.png)
+2. 导出镜像包    ```
+```
+docker save -o frontend_image.tar task4-frontend:latest
+docker save -o backend_image.tar task4-backend:latest
+```
+3. 只将镜像包和docker-compose用scp发到远端服务器
+4. 启动!
+```
+docker compose up -d --force-recreate
+```
+5. 开放云平台安全组 添加了 5173和8000两个入站规则
+![](assets/Task4/file-20260116190249586.png)
+
+现在可以通过公网ip对这个web应用进行访问了。
+
+## 总结
+回顾起来感觉自己的这个项目确实很基础，但是实现起来还是多多少少遇到了一些问题，不过通过各种方式解决了。 
