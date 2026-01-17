@@ -13,3 +13,4 @@ ans=max(dpl[i]+dpr[i]-a[i]+b[i],ans);
 ### [CF2158B](https://codeforces.com/contest/2158/problem/B)
 构造和分讨以及证明会用一点点数论。VP时guess通过了。奇数次的元素贡献固定为1，偶数次的元素贡献可以为2。有一个数学规律：**在任何序列中，出现次数为“奇数”的元素个数，其奇偶性必须和序列总长度一致。** 仅有所有元素次数都是偶数并且偶数个数cnto与n奇偶性不相同的时候答案是(cnto-1)×2,其他情况都是cntj+cnto×2。
 
+### [CF2175C](https://codeforces.com/contest/2175/problem/C)
