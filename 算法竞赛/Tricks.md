@@ -10,4 +10,5 @@ dp[i]=max(dp[i-1]+a[i],a[i]);
 ans=max(dpl[i]+dpr[i]-a[i]+b[i],ans);
 ```
 
-[]()
+### [CF2158B](https://codeforces.com/contest/2158/problem/B)
+构造。要
