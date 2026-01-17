@@ -11,4 +11,4 @@ ans=max(dpl[i]+dpr[i]-a[i]+b[i],ans);
 ```
 
 ### [CF2158B](https://codeforces.com/contest/2158/problem/B)
-构造和分讨。VP时guess通过了，奇数次的元素贡献固定为1，偶数次的元素贡献可以为2。仅有
+构造和分讨。VP时guess通过了，奇数次的元素贡献固定为1，偶数次的元素贡献可以为2。仅有所有元素次数都是偶数并且
